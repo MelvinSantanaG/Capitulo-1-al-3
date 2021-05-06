@@ -4,8 +4,8 @@ namespace Capitulo_1_al_3
 {
     class Capitulo_2_Ejercicio_1
     {
-         public void Calculate() 
-         { 
+        public void Calculate()
+        {
             //Declaracion de variables
             int Lado_a;
             int Lado_b;
@@ -30,8 +30,9 @@ namespace Capitulo_1_al_3
             Perimetro = Lado_a + Lado_b + Lado_c + Lado_d;
 
             //Mostrando Resultado
-            Console.WriteLine("Resultado Del Poligono es {0}",Perimetro+" CM");
+            Console.WriteLine("Resultado Del Poligono es {0}", Perimetro + " CM");
             Console.ReadKey();
-         }
+            Console.Clear();
+        }
     }
 }

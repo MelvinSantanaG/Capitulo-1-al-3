@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tarea.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,19 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo 1\Ejercicio 1\Capitulo_1_Ejercicio_1.cs" />
-    <Compile Include="Capitulo 1\Ejercicio 5\Capitulo_1_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 2\Ejercicio 1\Capitulo_2_Ejercicio_1.cs" />
-    <Compile Include="Capitulo 2\Ejercicio 3\Capitulo_2_Ejercicio_3.cs" />
-    <Compile Include="Capitulo 2\Ejercicio 5\Capitulo_2_Ejercicio_5.cs" />
-    <Compile Include="Capitulo 3\Ejercicio 1\Capitulo_3_Ejercicio_1.cs" />
-    <Compile Include="Capitulo 3\Ejercicio 4\Capitulo_3_Ejercicio_4.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 1\Ejercicio 1\Capitulo_1_Ejercicio_1.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 1\Ejercicio 5\Capitulo_1_Ejercicio_5.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 2\Ejercicio 1\Capitulo_2_Ejercicio_1.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 2\Ejercicio 3\Capitulo_2_Ejercicio_3.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 2\Ejercicio 5\Capitulo_2_Ejercicio_5.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 3\Ejercicio 1\Capitulo_3_Ejercicio_1.cs" />
+    <Compile Include="Capitulo Del 1 al 3\Capitulo 3\Ejercicio 4\Capitulo_3_Ejercicio_4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="tarea.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

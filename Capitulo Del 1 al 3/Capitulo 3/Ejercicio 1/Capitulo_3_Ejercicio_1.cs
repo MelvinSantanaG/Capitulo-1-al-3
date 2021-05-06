@@ -23,6 +23,7 @@ namespace Capitulo_1_al_3
                 Console.WriteLine("Es Impar");
             }
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }

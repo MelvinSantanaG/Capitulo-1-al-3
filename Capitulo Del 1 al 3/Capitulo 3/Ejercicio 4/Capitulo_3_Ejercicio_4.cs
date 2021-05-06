@@ -4,9 +4,8 @@ namespace Capitulo_1_al_3
 {
     class Capitulo_3_Ejercicio_4
     {
-     
-        public void Display() 
-        { 
+        public void Display()
+        {
             //Mostrando el menu
             Console.WriteLine("1. Lunes");
             Console.WriteLine("2. Martes");
@@ -56,6 +55,7 @@ namespace Capitulo_1_al_3
                     break;
             }
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }

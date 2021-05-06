@@ -17,6 +17,7 @@ namespace Capitulo_1_al_3
 
             //Para Detener la ventana de la consola 
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }

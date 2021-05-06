@@ -15,11 +15,12 @@ namespace Capitulo_1_al_3
             int Euros = Convert.ToInt32(Console.ReadLine());
 
             //Calculado el Cambio de Moneda
-            int Cambio = Dolares* Euros;
+            int Cambio = Dolares * Euros;
 
             //Mostrando el Resultado
             Console.WriteLine("El valor de {0} dolares en euro es {1} euros", Dolares, Cambio);
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }

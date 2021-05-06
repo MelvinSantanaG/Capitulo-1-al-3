@@ -22,6 +22,7 @@ namespace Capitulo_1_al_3
             //Mostrando el Resultado
             Console.WriteLine("Los grados son {0}° el Valor de los {1} radianes", Grados, Radianes);
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }
